@@ -56,6 +56,17 @@
         opacity: 0.4;
         text-align: center;
       }
+      
+      code > div {
+        padding: 0 10px;
+      }
+      
+      code > div[style*="opacity: 1;"]::before {
+        content: "+";
+        position: absolute;
+        transform: translateX(-10px);
+        color:  #addb67;
+      }
 
       a {
         color: rgb(173, 219, 103);
