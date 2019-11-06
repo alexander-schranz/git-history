@@ -166,7 +166,7 @@ export default function Scroller({
           width: "calc(100% - 20px)",
           maxWidth: "900px",
           margin: "auto",
-          padding: "10px",
+          padding: "10px 0",
           boxSizing: "border-box",
           height: "100%"
         }}
